@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../../assets/images/hero.svg";
+import meImg from "../../assets/images/Me.jpg"
 import CountUp from "react-countup";
 
 const Hero = () => {
@@ -98,7 +98,7 @@ const Hero = () => {
           {/* ====== hero img ======*/}
           <div className="basis-1/3 mt-10 sm:mt-0">
             <figure className="flex items-center justify-center">
-              <img src={heroImg} alt="heroImg" />
+              <img src={meImg} alt="meImg" className="rounded-lg"/>
             </figure>
           </div>
           {/* ====== hero img end ======*/}
